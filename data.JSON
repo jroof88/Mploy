@@ -67,7 +67,7 @@
       "jobDescription" : "Ever want to work where the Warriors play? Now is your chance! Oracle Arena is currently hiring parking lot attendents. This position consists of patrolling the parking lot during events and make sure every car has the proper pass, no funny business, no alcohol in the parking lot, etc. This position requires no prior experience however there are a few interviews in order to find the right placement. Please email us if interested! Go Warriors!",
       "jobTitle" : "Parking Lot Attendent",
       "latitude" : "37.7502917",
-      "location" : "Santa Clara, California",
+      "location" : "Oakland, California",
       "longitude" : "-122.2030494",
       "organization" : "Oracle Arena",
       "phoneNo" : "(417) 648-5497"
@@ -147,12 +147,12 @@
     "13" : {
       "compensation" : "6.00/hr",
       "duration" : "3hrs 1 day",
-      "email" : "city@burlinggame.org",
+      "email" : "city@burlingame.org",
       "jobDescription" : "The city of Burlingame is hosting their annual marathon this upcoming May 30th. They are seekers workers to help facilitate the marathon. Positions vary. 1 day of work.",
       "jobTitle" : "Marathon Worker",
       "latitude" : "37.5778696",
       "location" : "Burlingame, California",
-      "longitude" : "122.34809000000001",
+      "longitude" : "-122.34809000000001",
       "organization" : "The City of Burlingame, CA",
       "phoneNo" : "(953) 948-1166"
     },
