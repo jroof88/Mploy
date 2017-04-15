@@ -1,0 +1,17 @@
+.candidate{
+  border:2px solid black;
+  margin-right:10px;
+  margin-bottom:10px;
+  margin-left: 10px;
+  border-radius:10px;
+}
+
+.candidate:hover{
+  background-color: #1c7eb7;
+  border:2px dashed #1c7eb7;
+  color:white;
+}
+
+a{
+  color:#333333;
+}

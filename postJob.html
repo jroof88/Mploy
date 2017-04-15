@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Post Jobs! </title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="images/logo.png" />
+
+		<!-- Navbar styles -->
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Google GEOCode API -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+		<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.7.8/firebase.js"></script>
+
+		<!-- Config contains secure DB info (git ignored) -->
+		<script src="javascripts/config.js"></script>
+
+		<!-- Firebase Post Script -->
+		<script src="javascripts/postToFirebase.js"></script>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Styles -->
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="css/application.css">
+
+		<!-- Font Awesome -->
+		<script src="https://use.fontawesome.com/515dec28b0.js"></script>
+
+		<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<!-- NavBar -->
+	<div class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header"><a class="navbar-brand title">Mploy</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="candidates.html">Browse Candidates   <i class="fa fa-user fa-lg" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="postJob.html">Post Job   <i class="fa fa-clipboard fa-lg" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="about.html">About   <i class="fa fa-question fa-lg" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+	</div>
+
+	<h1> ~ Post a Job ~ </h1>
+	<br />
+
+	<div class="col-md-8 col-md-offset-2">
+		<form id="newJobForm">
+  		<div class="form-group row">
+				<div class="col-md-6">
+    			<label for="organizationName">Organization:</label>
+    			<input class="form-control" id="organization" placeholder="Organization Name">
+				</div>
+				<div class="col-md-6">
+    			<label for="jobTitle">Job Title:</label>
+    			<input class="form-control" id="jobTitle" placeholder="Job Title">
+				</div>
+			</div>
+  		<div class="form-group row">
+				<div class="col-md-12">
+    			<label for="jobDescription">Job Description:</label>
+    			<textarea class="form-control" id="jobDescription" rows="3" placeholder="One to Two paragraphs detailing the position, previous requirements, duration, etc."></textarea>
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-md-6">
+    			<label for="duration">Duration:</label>
+    			<input class="form-control" id="duration" placeholder="Ex: 4 hrs/day for 3 days">
+				</div>
+				<div class="col-md-6">
+    			<label for="compensation">Compensation:</label>
+    			<input class="form-control" id="compensation" placeholder="Ex: $15 an hour or $400 total">
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-md-12">
+    			<label for="location">Location:</label>
+    			<input class="form-control" id="location" placeholder="Location (ex. Santa Clara, California)">
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-md-6">
+    			<label for="phoneNo">Contact Phone No:</label>
+    			<input class="form-control" id="phoneNo" placeholder="(XXX)-XXX-XXXX">
+				</div>
+				<div class="col-md-6">
+    			<label for="email">Contact Email:</label>
+    			<input class="form-control" id="email" placeholder="xxxxx@domain.com">
+				</div>
+			</div>
+			<button id="submit" type="button" class="btn btn-primary">Submit!</button>
+		</form>
+	</div>
+</br>
+</br>
+</body>

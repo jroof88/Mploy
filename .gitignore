@@ -1,0 +1,5 @@
+*.img
+*.png
+*.jpeg
+
+*config.js

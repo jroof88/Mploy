@@ -1,0 +1,22 @@
+body{
+  background-color: rgba(38, 126, 183, 1);
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color:white;
+  font-size:150px;
+  text-align:center;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  text-align:center;
+}
+
+button {
+  height:40px;
+  width:100px;
+  font-size:20px;
+}
