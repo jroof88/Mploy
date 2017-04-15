@@ -22,9 +22,9 @@ function postToFirebase(){
       if (status == google.maps.GeocoderStatus.OK) {
           var myResult = results[0].geometry.location;
 
-          var loc=[]; // no need to define it in outer function now
-          loc[0]=results[0].geometry.location.lat().toString();
-          loc[1]=results[0].geometry.location.lng().toString();
+          var loc=[];
+          loc[0]=results[0].geometry.location.lat().toString(); //Convert to String to work properly with iOS
+          loc[1]=results[0].geometry.location.lng().toString(); //Convert to String to work properly with iOS
 
           latitude = loc[0];
           longitude = loc[1];

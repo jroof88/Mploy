@@ -1,5 +1,9 @@
+.navbar{
+  background-color: #1c7eb7;
+}
+
 .navbar-default {
-  background-color: red;
+  background-color: #1c7eb7;
   border-color: #1c7eb7;
 }
 .navbar-default .navbar-brand {
@@ -68,8 +72,8 @@
   }
 }
 
-.container{
-  background-color:#1c7eb7;
+.stuff{
+  background-color: #1c7eb7;
 }
 
 li{
