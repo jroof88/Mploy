@@ -25,7 +25,7 @@
       "phoneNo" : "(833) 666-6252"
     },
     "3" : {
-      "compensation" : "7.00/hr",
+      "compensation" : "$7.00/hr",
       "duration" : "8hrs 1 Weekend",
       "email" : "john@paloaltocommunity.org",
       "jobDescription" : "The Palo Alto County Fair is coming up start on Friday May 17th! The Palo Alto Community Center is looking for Fair Workers. Jobs could range from setup & breakdown to food server. Interview process cosists of a quick meeting with one of the fair supervisors.",
@@ -37,7 +37,7 @@
       "phoneNo" : "(356) 647-6742"
     },
     "4" : {
-      "compensation" : "8.50/hr",
+      "compensation" : "$8.50/hr",
       "duration" : "9-10hrs daily",
       "email" : "employment@SFcity.org",
       "jobDescription" : "The City of San Francisco is always in need of city works. From construction to road maintence, something can always be improved. Candidates ideally have construction experience but there is often oppurtunities for training. Full background check is required along with a training periond. Email or call if interested!",
@@ -49,7 +49,7 @@
       "phoneNo" : "(796) 582-4196"
     },
     "5" : {
-      "compensation" : "7.50/hr",
+      "compensation" : "$7.50/hr",
       "duration" : "8hrs daily",
       "email" : "employement@walmart.oakland.com",
       "jobDescription" : "The Walmart of Oakland is short staffed on greeters at the moment. This job would consist of standing outside the store, greeting customers as they arrive, and pointing them to the correct isle if they ask. This position requires an interview with the store manager and a background check. We encourage everyone to reach out to us!",
@@ -61,7 +61,7 @@
       "phoneNo" : "(403) 467-9085"
     },
     "6" : {
-      "compensation" : "9.00/hr",
+      "compensation" : "$9.00/hr",
       "duration" : "3-4hrs During Events",
       "email" : "employmentOracleArena@gmail.com",
       "jobDescription" : "Ever want to work where the Warriors play? Now is your chance! Oracle Arena is currently hiring parking lot attendents. This position consists of patrolling the parking lot during events and make sure every car has the proper pass, no funny business, no alcohol in the parking lot, etc. This position requires no prior experience however there are a few interviews in order to find the right placement. Please email us if interested! Go Warriors!",
@@ -73,7 +73,7 @@
       "phoneNo" : "(417) 648-5497"
     },
     "7" : {
-      "compensation" : "6.50/hr",
+      "compensation" : "$6.50/hr",
       "duration" : "8-9hrs daily",
       "email" : "john@JohnAndFamilyLandscaping.com",
       "jobDescription" : "Hello everyone, my name is John and I own John and Family Landscaping Co. in Fremont, California. I'm currently looking for some more workers as we are growing fast. Candidates preferably have landscaping and/or yard work experience. All training will be done on the job and an interview with me is required.",
@@ -85,7 +85,7 @@
       "phoneNo" : "(253) 415-0088"
     },
     "8" : {
-      "compensation" : "7.50/hr",
+      "compensation" : "$7.50/hr",
       "duration" : "4-5hrs 2 Weekends",
       "email" : "SanJoseChiliFest@gmail.com",
       "jobDescription" : "Hello everyone! The San Jose Chili Fest is right around the corner and we need hands! We have tons of jobs to fill so please EMAIL us and we will give you the specific. Happy Chili!",
@@ -97,7 +97,7 @@
       "phoneNo" : "(417) 648-5497"
     },
     "9" : {
-      "compensation" : "9.00/hr + 1/2 Gas reimbursement",
+      "compensation" : "$9.00/hr + 1/2 Gas reimbursement",
       "duration" : "Flexible",
       "email" : "info@santaclara.pizzamyheart.com",
       "jobDescription" : "The Santa Clara location of Pizza My Heart location is looking for a Pizza Delivery worker. There are a few specific requirements for this position: must have a valid license, must own a car, and must have a clean driving record. Tips are the main form of income. Please contact if interested and we will set up a meeting. Thanks.",
@@ -109,7 +109,7 @@
       "phoneNo" : "(426) 938-1690"
     },
     "10" : {
-      "compensation" : "9.00/hr",
+      "compensation" : "$9.00/hr",
       "duration" : "Depends on Project",
       "email" : "researchTest@apple.com",
       "jobDescription" : "Apple is hiring research subjects for User Experience testing. The specific requirements of a test subject depend on the project. Email us and we will send you a form to fill out to find projects that match your criteria. Think different.",
@@ -119,6 +119,78 @@
       "longitude" : "-122.03018900000001",
       "organization" : "Apple Inc.",
       "phoneNo" : "(980) 560-9981"
+    },
+    "11" : {
+      "compensation" : "$7.00/hr",
+      "duration" : "8hrs daily",
+      "email" : "town@Sunnyvale.gov",
+      "jobDescription" : "The town of Sunnyvale is hiring a park attendent to keep their park tidy. This include picking up garbage, make sure rules are being followed, and people. This position requires little to no experience! Please reach out if interested!",
+      "jobTitle" : "Park Attendent",
+      "latitude" : "37.3316756",
+      "location" : "Fair Oaks Park, Sunnyvale, California",
+      "longitude" : "-122.03018900000001",
+      "organization" : "City of Sunnyvale",
+      "phoneNo" : "(583) 397-7233"
+    },
+    "12" : {
+      "compensation" : "$12.00/hr",
+      "duration" : "7hrs daily",
+      "email" : "sanitation@google.com",
+      "jobDescription" : "Google is hiring campus workers at their headquarters, the Google Plex, in Moutain View. This is an amazing oppurtunity to work at one of the most sought after campuses in the world. There are tons of openings across all departments so just reach out!",
+      "jobTitle" : "Campus Worker",
+      "latitude" : "37.4219999",
+      "location" : "Mountain View, California",
+      "longitude" : "-122.08405749999997",
+      "organization" : "Google Inc.",
+      "phoneNo" : "(501) 972-7127"
+    },
+    "13" : {
+      "compensation" : "6.00/hr",
+      "duration" : "3hrs 1 day",
+      "email" : "city@burlinggame.org",
+      "jobDescription" : "The city of Burlingame is hosting their annual marathon this upcoming May 30th. They are seekers workers to help facilitate the marathon. Positions vary. 1 day of work.",
+      "jobTitle" : "Marathon Worker",
+      "latitude" : "37.5778696",
+      "location" : "Burlingame, California",
+      "longitude" : "122.34809000000001",
+      "organization" : "The City of Burlingame, CA",
+      "phoneNo" : "(953) 948-1166"
+    },
+    "14" : {
+      "compensation" : "7.50/hr",
+      "duration" : "6-8hrs daily",
+      "email" : "employment@JimsHauling.com",
+      "jobDescription" : "Jims Hauling is a junk hauling company based in South San Francisco. They are currently looking for more employees to help haul more junk. No experience is required.",
+      "jobTitle" : "Certified Hauler",
+      "latitude" : "37.654656",
+      "location" : "South San Francisco, California",
+      "longitude" : "-122.40774980000003",
+      "organization" : "Jim's Hauling Company",
+      "phoneNo" : "(630) 446-8851"
+    },
+    "15" : {
+      "compensation" : "9.00/hr",
+      "duration" : "3-4hrs daily + recycle change",
+      "email" : "employment@janeswines.com",
+      "jobDescription" : "Janes Winery is a small vineyard just north of San Francisco. I (Jane) am looking for someone to recycle my empty bottles from tasting at the end of the day. In addition to wage you can kept the change from the recycle plant. One requirement: a car.",
+      "jobTitle" : "Wine Recycler",
+      "latitude" : "37.868538",
+      "location" : "Marin City, California",
+      "longitude" : "-122.50914039999998",
+      "organization" : "Janes Winerey",
+      "phoneNo" : "(125) 546-4478"
+    },
+    "16" : {
+      "compensation" : "6.50/hr",
+      "duration" : "3-4/hrs daily",
+      "email" : "athletics@ucberkely.edu",
+      "jobDescription" : "UC Berkely is hiring a cleaning specialist for their athletic courts after teams practice. The cleaner would be responsible for cleaning courts such as basketball, tennis, etc. No experience required. Strict background check because of college campus.",
+      "jobTitle" : "Court Cleaner",
+      "latitude" : "37.8718992",
+      "location" : "Berkley, California",
+      "longitude" : "-122.25853990000002",
+      "organization" : "University of California, Berkley",
+      "phoneNo" : "(839) 348-0039"
     }
   },
   "Users" : {
