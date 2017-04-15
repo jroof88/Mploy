@@ -1,5 +1,10 @@
 var db = firebase.database()
 
+var dbListen = db.ref("Users");
+dbListen.on('value', function(snapshot) {
+  grabFromFirebase();
+});
+
 function grabFromFirebase(){
   var count = 0; //Count variable to keep track of new rows
   var query = db.ref("Users").orderByKey();

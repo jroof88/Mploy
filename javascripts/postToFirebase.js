@@ -23,8 +23,8 @@ function postToFirebase(){
           var myResult = results[0].geometry.location;
 
           var loc=[]; // no need to define it in outer function now
-          loc[0]=results[0].geometry.location.lat();
-          loc[1]=results[0].geometry.location.lng();
+          loc[0]=results[0].geometry.location.lat().toString();
+          loc[1]=results[0].geometry.location.lng().toString();
 
           latitude = loc[0];
           longitude = loc[1];
